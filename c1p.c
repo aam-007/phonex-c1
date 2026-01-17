@@ -548,7 +548,7 @@ void adamw_step(Tensor* t, int step, int decay_allowed) {
             t->data[i] -= LR * update;
         }
     }
-    // Audit: Critical Fix for Infinite Gradient Accumulation
+  
     memset(t->grad, 0, t->n * t->d * sizeof(float));
 }
 
