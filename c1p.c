@@ -1,7 +1,7 @@
 /*
  * Phonex-C1 (Hardened): Pure C Transformer
  * ----------------------------------------
- * Compile: gcc -O3 c1p_harden.c -lm -o c1p
+ * Compile: gcc -O3 c1p.c -lm -o c1p
  */
 
 #include <stdio.h>
